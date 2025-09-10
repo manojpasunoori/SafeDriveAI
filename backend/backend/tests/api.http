@@ -1,0 +1,8 @@
+### Predict v1 with real weather (Hyderabad)
+POST http://127.0.0.1:8000/v1/predict
+Content-Type: application/json
+
+{
+  "location": { "lat": 17.3850, "lon": 78.4867 },
+  "hour": 18
+}
